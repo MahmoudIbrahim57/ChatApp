@@ -1,0 +1,39 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="المصطبه"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="#5c5c5c"
+        android:textColor="#ffffff"
+        />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="70dp"
+    android:src="@drawable/background_image"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:text="يلا .. بينا"
+        android:background="@drawable/button_background"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+          android:id="@+id/bt_login"
+        />
+
+
+</RelativeLayout>
